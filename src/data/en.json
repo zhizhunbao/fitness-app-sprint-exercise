@@ -1,0 +1,779 @@
+{
+  "project": {
+    "title": "FitLife Fitness Management Application",
+    "page_title": "FitLife Sprint Planning"
+  },
+  "sprint": {
+    "info": {
+      "title": "Sprint Information",
+      "number": "Sprint Number:",
+      "number_value": "Sprint 1",
+      "duration": "Duration:",
+      "duration_value": "2 weeks",
+      "team_size": "Team Size:",
+      "team_size_value": "4 members",
+      "goal": "Sprint Goal:",
+      "goal_desc": "Develop User Dashboard and Goal-Setting Module"
+    }
+  },
+  "team_members": [
+    {
+      "name": "Travis",
+      "role": "Product Manager & Scrum Master & QA Engineer",
+      "skills": "Product Strategy, User Research, Sprint Planning, Stakeholder Management, Quality Assurance, Testing"
+    },
+    {
+      "name": "Lainne",
+      "role": "Frontend Developer & UX Designer",
+      "skills": "React, Vue.js, UI/UX Design, Mobile Development, User Interface"
+    },
+    {
+      "name": "Hunt",
+      "role": "Backend Developer & DevOps Engineer",
+      "skills": "Node.js, Python, Database Design, API Development, Cloud Infrastructure"
+    },
+    {
+      "name": "Frank",
+      "role": "Full-Stack Developer",
+      "skills": "JavaScript, React, Node.js, Code Review, System Integration"
+    }
+  ],
+  "team": {
+    "title": "Team Members",
+    "roles": {
+      "Product Manager & Scrum Master & QA Engineer": "Product Manager & Scrum Master & QA Engineer",
+      "Frontend Developer & UX Designer": "Frontend Developer & UX Designer", 
+      "Backend Developer & DevOps Engineer": "Backend Developer & DevOps Engineer",
+      "Full-Stack Developer": "Full-Stack Developer"
+    },
+    "skills": {
+      "Product Strategy, User Research, Sprint Planning, Stakeholder Management, Quality Assurance, Testing": "Product Strategy, User Research, Sprint Planning, Stakeholder Management, Quality Assurance, Testing",
+      "React, Vue.js, UI/UX Design, Mobile Development, User Interface": "React, Vue.js, UI/UX Design, Mobile Development, User Interface",
+      "Node.js, Python, Database Design, API Development, Cloud Infrastructure": "Node.js, Python, Database Design, API Development, Cloud Infrastructure",
+      "JavaScript, React, Node.js, Code Review, System Integration": "JavaScript, React, Node.js, Code Review, System Integration"
+    }
+  },
+  "user_stories": [
+    {
+      "id": "US1",
+      "title": "User Profile Creation",
+      "description": "As a user, I want to create a profile with personal details (age, weight, height, fitness goals), so that I can track my progress.",
+      "story_points": 8,
+      "total_hours": 32,
+      "priority": "P1",
+      "subtasks": [
+        {
+          "id": "US1.1",
+          "title": "Design user profile wireframes and mockups",
+          "description": "Create UI/UX designs for profile creation flow",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Lainne",
+          "category": "Design"
+        },
+        {
+          "id": "US1.2",
+          "title": "Implement profile creation frontend",
+          "description": "Build React components for profile form",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Frank",
+          "category": "Frontend"
+        },
+        {
+          "id": "US1.3",
+          "title": "Develop user profile API endpoints",
+          "description": "Create backend APIs for profile CRUD operations",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Hunt",
+          "category": "Backend"
+        },
+        {
+          "id": "US1.4",
+          "title": "Write unit and integration tests",
+          "description": "Test profile creation functionality end-to-end",
+          "story_points": 1,
+          "hours": 4,
+          "assignee": "Travis",
+          "category": "Testing"
+        }
+      ]
+    },
+    {
+      "id": "US2",
+      "title": "Goal Setting Module",
+      "description": "As a user, I want to set fitness goals (weight loss, strength training, cardio), so that I can plan my fitness journey.",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P1",
+      "subtasks": [
+        {
+          "id": "US2.1",
+          "title": "Design goal setting interface",
+          "description": "Create wireframes and prototypes for goal setting flow",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "Design"
+        },
+        {
+          "id": "US2.2",
+          "title": "Implement goal setting frontend components",
+          "description": "Build React components for goal creation and management",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Frank",
+          "category": "Frontend"
+        },
+        {
+          "id": "US2.3",
+          "title": "Develop goal management backend services",
+          "description": "Create APIs for goal CRUD operations and business logic",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Hunt",
+          "category": "Backend"
+        },
+        {
+          "id": "US2.4",
+          "title": "Implement goal validation and testing",
+          "description": "Add validation logic and comprehensive test coverage",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Travis",
+          "category": "Testing"
+        }
+      ]
+    },
+    {
+      "id": "US3",
+      "title": "Basic User Dashboard",
+      "description": "As a user, I want to see a basic summary of my profile and goals on my dashboard, so that I can have an overview of my fitness journey.",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P1",
+      "subtasks": [
+        {
+          "id": "US3.1",
+          "title": "Design basic dashboard layout",
+          "description": "Create simple dashboard UI/UX design with profile and goal overview",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "Design"
+        },
+        {
+          "id": "US3.2",
+          "title": "Implement basic dashboard frontend",
+          "description": "Build simple dashboard displaying user profile and goals",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Frank",
+          "category": "Frontend"
+        },
+        {
+          "id": "US3.3",
+          "title": "Develop basic dashboard APIs",
+          "description": "Create backend services for basic dashboard data retrieval",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Hunt",
+          "category": "Backend"
+        },
+        {
+          "id": "US3.4",
+          "title": "Test basic dashboard functionality",
+          "description": "Test dashboard display and data integration",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Travis",
+          "category": "Testing"
+        }
+      ]
+    },
+    {
+      "id": "US4",
+      "title": "Simple Activity Logging",
+      "description": "As a user, I want to log basic exercise activities, so that I can start tracking my fitness activities.",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P2",
+      "subtasks": [
+        {
+          "id": "US4.1",
+          "title": "Design simple activity logging interface",
+          "description": "Create UI/UX for basic exercise logging form",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "Design"
+        },
+        {
+          "id": "US4.2",
+          "title": "Build basic activity logging frontend",
+          "description": "Implement simple form for exercise activity input",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Frank",
+          "category": "Frontend"
+        },
+        {
+          "id": "US4.3",
+          "title": "Develop activity storage backend",
+          "description": "Create APIs for storing basic activity data",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Hunt",
+          "category": "Backend"
+        },
+        {
+          "id": "US4.4",
+          "title": "Test activity logging functionality",
+          "description": "Test activity input and storage functionality",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Travis",
+          "category": "Testing"
+        }
+      ]
+    },
+    {
+      "id": "US5",
+      "title": "Weekly Progress Reports",
+      "description": "As a user, I want to receive a weekly progress report, so that I can stay motivated and make adjustments to my routine.",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P2",
+      "subtasks": [
+        {
+          "id": "US5.1",
+          "title": "Design progress report interface",
+          "description": "Create UI/UX designs for weekly progress report display",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "Design"
+        },
+        {
+          "id": "US5.2",
+          "title": "Implement progress calculation logic",
+          "description": "Develop backend services to calculate weekly progress metrics",
+          "story_points": 4,
+          "hours": 16,
+          "assignee": "Hunt",
+          "category": "Backend"
+        },
+        {
+          "id": "US5.3",
+          "title": "Build progress report frontend",
+          "description": "Create React components for displaying weekly progress reports",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Frank",
+          "category": "Frontend"
+        },
+        {
+          "id": "US5.4",
+          "title": "Implement report scheduling system",
+          "description": "Set up automated weekly report generation and delivery",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Hunt",
+          "category": "Backend"
+        },
+        {
+          "id": "US5.5",
+          "title": "Test progress reporting functionality",
+          "description": "Test report generation, accuracy, and user experience",
+          "story_points": 1,
+          "hours": 4,
+          "assignee": "Travis",
+          "category": "Testing"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "total_story_points": 60,
+    "total_hours": 240,
+    "team_capacity": 315,
+    "committed_hours": 240,
+    "buffer_percentage": 24,
+    "title": "Capacity vs Commitment",
+    "total": "Total Capacity",
+    "committed": "Committed Work",
+    "buffer": "Buffer Time"
+  },
+  "tasks": {
+    "todo": [
+      {
+        "id": "US2.1",
+        "title": "Design goal setting interface",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US3.2",
+        "title": "Implement basic dashboard frontend",
+        "assignee": "Frank",
+        "story_points": 5,
+        "hours": 20
+      },
+      {
+        "id": "US3.3",
+        "title": "Develop basic dashboard APIs",
+        "assignee": "Hunt",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US2.4",
+        "title": "Implement goal validation and testing",
+        "assignee": "Travis",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US4.1",
+        "title": "Design simple activity logging interface",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US4.2",
+        "title": "Build basic activity logging frontend",
+        "assignee": "Frank",
+        "story_points": 5,
+        "hours": 20
+      },
+      {
+        "id": "US5.1",
+        "title": "Design progress report interface",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US5.2",
+        "title": "Implement progress calculation logic",
+        "assignee": "Hunt",
+        "story_points": 4,
+        "hours": 16
+      }
+    ],
+    "in_progress": [
+      {
+        "id": "US1.1",
+        "title": "Design user profile wireframes and mockups",
+        "assignee": "Lainne",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US1.2",
+        "title": "Implement profile creation frontend",
+        "assignee": "Frank",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US1.3",
+        "title": "Develop user profile API endpoints",
+        "assignee": "Hunt",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US2.3",
+        "title": "Develop goal management backend services",
+        "assignee": "Hunt",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US2.2",
+        "title": "Implement goal setting frontend components",
+        "assignee": "Frank",
+        "story_points": 5,
+        "hours": 20
+      },
+      {
+        "id": "US4.3",
+        "title": "Develop activity storage backend",
+        "assignee": "Hunt",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US5.3",
+        "title": "Build progress report frontend",
+        "assignee": "Frank",
+        "story_points": 3,
+        "hours": 12
+      }
+    ],
+    "done": [
+      {
+        "id": "SETUP",
+        "title": "Project setup and environment configuration",
+        "assignee": "Hunt",
+        "story_points": 1,
+        "hours": 4
+      },
+      {
+        "id": "US3.1",
+        "title": "Design basic dashboard layout",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US1.4",
+        "title": "Write unit and integration tests",
+        "assignee": "Travis",
+        "story_points": 1,
+        "hours": 4
+      },
+      {
+        "id": "US3.4",
+        "title": "Integrate real-time data updates",
+        "assignee": "Frank",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US3.5",
+        "title": "Test dashboard functionality and performance",
+        "assignee": "Travis",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US4.4",
+        "title": "Test activity logging functionality",
+        "assignee": "Travis",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US5.4",
+        "title": "Implement report scheduling system",
+        "assignee": "Hunt",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US5.5",
+        "title": "Test progress reporting functionality",
+        "assignee": "Travis",
+        "story_points": 1,
+        "hours": 4
+      }
+    ]
+  },
+  "user_stories_ui": {
+    "title": "User Stories",
+    "headers": {
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "story_points": "Story Points",
+      "hours": "Hours",
+      "priority": "Priority"
+    },
+    "subtask_headers": {
+      "id": "Task ID",
+      "title": "Task Title",
+      "description": "Description",
+      "story_points": "SP",
+      "hours": "Hours",
+      "assignee": "Assignee",
+      "category": "Category"
+    },
+    "categories": {
+      "Design": "Design",
+      "Frontend": "Frontend",
+      "Backend": "Backend",
+      "Testing": "Testing",
+      "Integration": "Integration",
+      "Setup": "Setup",
+      "DevOps": "DevOps",
+      "Documentation": "Documentation",
+      "Product Management": "Product Management",
+      "Project Management": "Project Management"
+    }
+  },
+  "priority": {
+    "title": "Priority & Capacity Planning",
+    "levels": "Priority Levels",
+    "stories_label": "Stories:",
+    "priorities": {
+      "P1": {
+        "title": "High Priority (Must Have)",
+        "description": "Core functionality essential for MVP launch"
+      },
+      "P2": {
+        "title": "Medium Priority (Should Have)", 
+        "description": "Important features that enhance user experience"
+      },
+      "P3": {
+        "title": "Low Priority (Could Have)",
+        "description": "Nice-to-have features for future iterations"
+      }
+    },
+    "capacity": {
+      "title": "Capacity Planning",
+      "team_capacity": "Team Capacity:",
+      "committed_work": "Committed Work:",
+      "buffer_time": "Buffer Time:",
+      "hours_unit": "hours"
+    }
+  },
+  "task_board": {
+    "title": "Sprint Task Board",
+    "columns": {
+      "todo": "To Do",
+      "in_progress": "In Progress", 
+      "done": "Done"
+    },
+    "task_info": {
+      "assignee": "Assignee:",
+      "story_points": "SP:",
+      "hours": "Hours:"
+    }
+  },
+  "burndown": {
+    "title": "Sprint Burndown Chart",
+    "axes": {
+      "x": "Days",
+      "y": "Remaining Story Points"
+    },
+    "legend": {
+      "ideal": "Ideal Burndown",
+      "actual": "Actual Progress"
+    },
+    "chart_data": {
+      "ideal_burndown": [55, 51, 47, 43, 39, 35, 31, 27, 23, 19, 15, 11, 7, 3, 0],
+      "actual_progress": [55, 53, 49, 45, 41, 36, 31, 25, 19, 14, 10, 6, 3, 1, 0],
+      "days": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15"]
+    }
+  },
+  "velocity": {
+    "title": "Team Velocity Tracking",
+    "chart": {
+      "title": "Sprint Velocity",
+      "x_axis": "Sprint Number",
+      "y_axis": "Story Points Completed"
+    },
+    "metrics": [
+      {
+        "sprint": "Sprint 1",
+        "planned": 55,
+        "completed": 52,
+        "velocity": 52
+      }
+    ]
+  },
+  "retrospective": {
+    "title": "Sprint Retrospective",
+    "sections": {
+      "went_well": "What Went Well",
+      "improvements": "Areas for Improvement", 
+      "action_items": "Action Items"
+    },
+    "categories": [
+      {
+        "category": "What Went Well",
+        "items": [
+          "Strong team collaboration and communication",
+          "Effective daily standups and sprint planning",
+          "Good progress on user profile and goal setting features",
+          "Quality code reviews and knowledge sharing"
+        ]
+      },
+      {
+        "category": "Areas for Improvement",
+        "items": [
+          "Better estimation accuracy for complex tasks",
+          "More comprehensive testing coverage",
+          "Improved documentation and code comments",
+          "Enhanced user feedback integration process"
+        ]
+      },
+      {
+        "category": "Action Items",
+        "items": [
+          "Implement story point calibration session",
+          "Establish automated testing pipeline",
+          "Create coding standards documentation",
+          "Set up user testing feedback loop"
+        ]
+      }
+    ]
+  },
+  "risk_management": {
+    "title": "Risk Management",
+    "risks": [
+      {
+        "risk": "Technical Complexity",
+        "impact": "High",
+        "probability": "Medium",
+        "mitigation": "Conduct technical spikes and proof-of-concepts before implementation. Allocate extra time for complex features."
+      },
+      {
+        "risk": "Scope Creep",
+        "impact": "Medium",
+        "probability": "High", 
+        "mitigation": "Strict adherence to sprint planning. All new requirements go through proper backlog prioritization."
+      },
+      {
+        "risk": "Resource Availability",
+        "impact": "High",
+        "probability": "Low",
+        "mitigation": "Cross-training team members and maintaining knowledge documentation. Have backup plans for critical tasks."
+      },
+      {
+        "risk": "Integration Challenges",
+        "impact": "Medium",
+        "probability": "Medium",
+        "mitigation": "Early integration testing and continuous integration practices. Regular integration checkpoints."
+      }
+    ]
+  },
+  "deliverables": {
+    "title": "Deliverables",
+    "functional": "Functional Deliverables",
+    "documentation": "Documentation Deliverables",
+    "process": "Process Deliverables",
+    "items": {
+      "functional": [
+        "User Profile Creation Module",
+        "Goal Setting Interface",
+        "User Dashboard with Progress Tracking",
+        "Activity Logging System",
+        "Weekly Progress Reports"
+      ],
+      "documentation": [
+        "Technical Architecture Document",
+        "API Documentation",
+        "User Interface Design Specifications",
+        "Testing Strategy Document",
+        "Deployment Guide"
+      ],
+      "process": [
+        "Sprint Planning Documentation",
+        "Daily Standup Meeting Notes",
+        "Sprint Review Presentation",
+        "Sprint Retrospective Report",
+        "Risk Assessment Matrix"
+      ]
+    }
+  },
+  "presentation": {
+    "title": "Presentation Key Points",
+    "points": [
+      {
+        "title": "Task Breakdown Strategy",
+        "description": "User stories are systematically broken down into design, development, testing, and deployment phases to ensure comprehensive coverage and clear ownership."
+      },
+      {
+        "title": "Story Point Estimation Method",
+        "description": "We use Planning Poker technique with Fibonacci sequence (1, 2, 3, 5, 8, 13, 21) based on complexity, uncertainty, and effort required for each task."
+      },
+      {
+        "title": "Priority Reasoning",
+        "description": "P1 stories focus on core MVP functionality, P2 enhances user experience, P3 provides additional value - prioritized based on user impact and technical dependencies."
+      },
+      {
+              "title": "Resource Allocation Logic",
+      "description": "Team members assigned based on expertise: Lainne (UI/UX focus), Hunt (backend systems), Frank (full-stack development), Travis (product management & QA)."
+      },
+      {
+        "title": "Delivery Assurance",
+        "description": "Sprint capacity includes 20% buffer time, tasks broken into 1-2 day increments, dependencies clearly mapped to ensure realistic commitments."
+      }
+    ]
+  },
+  "presentation_points": [
+    "Demonstrate user profile creation and goal setting functionality",
+    "Show basic dashboard with profile and goal overview",
+    "Present simple activity logging interface for exercise tracking",
+    "Review sprint metrics: 55 story points planned, 52 completed (94.5% velocity)",
+    "Highlight team collaboration achievements and solid foundation established"
+  ],
+  "estimation": {
+    "title": "Story Points & Effort Estimation Logic",
+    "methods": [
+      {
+        "method": "Planning Poker",
+        "description": "Team uses Fibonacci sequence (1,2,3,5,8,13,21) for relative story point estimation"
+      },
+      {
+        "method": "Historical Velocity",
+        "description": "Based on previous sprint data, team velocity averages 65-70 story points per sprint"
+      },
+      {
+        "method": "Capacity Planning",
+        "description": "315 total team hours capacity with 20% buffer (63 hours) reserved for unplanned work"
+      },
+      {
+        "method": "Task Breakdown",
+        "description": "Each user story broken into subtasks with individual hour estimates for accuracy"
+      }
+    ]
+  },
+  "estimation_logic": [
+    {
+      "method": "Planning Poker",
+      "description": "Team uses Fibonacci sequence (1,2,3,5,8,13,21) for relative story point estimation"
+    },
+    {
+      "method": "Historical Velocity",
+      "description": "Based on previous sprint data, team velocity averages 65-70 story points per sprint"
+    },
+    {
+      "method": "Capacity Planning",
+      "description": "315 total team hours capacity with 20% buffer (63 hours) reserved for unplanned work"
+    },
+    {
+      "method": "Task Breakdown",
+      "description": "Each user story broken into subtasks with individual hour estimates for accuracy"
+    }
+  ],
+  "best_practices": {
+    "title": "Agile Best Practices",
+    "practices": [
+      {
+        "method": "Daily Standups",
+        "description": "15-minute daily meetings to sync progress, identify blockers, and maintain team alignment on sprint goals."
+      },
+      {
+        "method": "Sprint Planning",
+        "description": "Collaborative session to select backlog items, estimate effort, and commit to sprint deliverables based on team capacity."
+      },
+      {
+        "method": "Story Point Estimation",
+        "description": "Relative estimation using Fibonacci sequence to gauge complexity and effort required for user stories."
+      },
+      {
+        "method": "Code Reviews",
+        "description": "Peer review process to maintain code quality, share knowledge, and identify potential issues early."
+      },
+      {
+        "method": "Continuous Integration",
+        "description": "Automated testing and deployment pipeline to ensure code quality and rapid feedback on changes."
+      },
+      {
+        "method": "Sprint Retrospectives",
+        "description": "Regular reflection sessions to identify improvements and adjust team processes for better efficiency."
+      },
+      {
+        "method": "Capacity Buffer Management",
+        "description": "We reserve 20% of total capacity for unplanned work, technical debt, and sprint ceremonies to maintain sustainable development pace."
+      }
+    ]
+  }
+} 

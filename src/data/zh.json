@@ -1,0 +1,847 @@
+{
+  "project": {
+    "title": "FitLife 健身管理应用",
+    "page_title": "FitLife Sprint 规划"
+  },
+  "sprint": {
+    "info": {
+      "title": "Sprint 信息",
+      "number": "Sprint 编号：",
+      "number_value": "Sprint 1",
+      "duration": "持续时间：",
+      "duration_value": "2周",
+      "team_size": "团队规模：",
+      "team_size_value": "4名成员",
+      "goal": "Sprint 目标：",
+      "goal_desc": "开发用户仪表板和目标设置模块"
+    }
+  },
+  "team_members": [
+    {
+      "name": "Travis",
+      "role": "产品经理 & Scrum Master & QA工程师",
+      "skills": "产品策略，用户研究，Sprint规划，利益相关者管理，质量保证，测试"
+    },
+    {
+      "name": "Lainne",
+      "role": "前端开发 & UX设计师",
+      "skills": "React，Vue.js，UI/UX设计，移动开发，用户界面"
+    },
+    {
+      "name": "Hunt",
+      "role": "后端开发 & DevOps工程师",
+      "skills": "Node.js，Python，数据库设计，API开发，云基础设施"
+    },
+    {
+      "name": "Frank",
+      "role": "全栈开发工程师",
+      "skills": "JavaScript，React，Node.js，代码审查，系统集成"
+    }
+  ],
+  "team": {
+    "title": "团队成员",
+    "roles": {
+      "Product Manager & Scrum Master": "产品经理 & Scrum Master",
+      "Frontend Developer & UX Designer": "前端开发 & UX设计师",
+      "Backend Developer & DevOps Engineer": "后端开发 & DevOps工程师", 
+      "Full-Stack Developer & QA Engineer": "全栈开发 & 测试工程师"
+    },
+    "skills": {
+      "Product Strategy, User Research, Sprint Planning, Stakeholder Management": "产品策略，用户研究，Sprint规划，利益相关者管理",
+      "React, Vue.js, UI/UX Design, Mobile Development, User Interface": "React，Vue.js，UI/UX设计，移动开发，用户界面",
+      "Node.js, Python, Database Design, API Development, Cloud Infrastructure": "Node.js，Python，数据库设计，API开发，云基础设施",
+      "JavaScript, Testing Automation, Code Review, System Integration, Quality Assurance": "JavaScript，测试自动化，代码审查，系统集成，质量保证"
+    }
+  },
+  "user_stories": [
+    {
+      "id": "US1",
+      "title": "用户档案创建",
+      "description": "作为用户，我希望创建包含个人详细信息（年龄、体重、身高、健身目标）的档案，以便我可以跟踪我的进步。",
+      "story_points": 8,
+      "total_hours": 32,
+      "priority": "P1",
+      "subtasks": [
+        {
+          "id": "US1.1",
+          "title": "设计用户档案线框图和原型",
+          "description": "为档案创建流程创建UI/UX设计",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Lainne",
+          "category": "设计"
+        },
+        {
+          "id": "US1.2",
+          "title": "实现档案创建前端",
+          "description": "为档案表单构建React组件",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Frank",
+          "category": "前端"
+        },
+        {
+          "id": "US1.3",
+          "title": "开发用户档案API端点",
+          "description": "创建档案CRUD操作的后端API",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Hunt",
+          "category": "后端"
+        },
+        {
+          "id": "US1.4",
+          "title": "编写单元和集成测试",
+          "description": "端到端测试档案创建功能",
+          "story_points": 1,
+          "hours": 4,
+          "assignee": "Travis",
+          "category": "测试"
+        }
+      ]
+    },
+    {
+      "id": "US2",
+      "title": "目标设置模块",
+      "description": "作为用户，我希望设置健身目标（减重、力量训练、有氧运动），以便我可以规划我的健身之旅。",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P1",
+      "subtasks": [
+        {
+          "id": "US2.1",
+          "title": "设计目标设置界面",
+          "description": "为目标设置流程创建线框图和原型",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "设计"
+        },
+        {
+          "id": "US2.2",
+          "title": "实现目标设置前端组件",
+          "description": "构建用于目标创建和管理的React组件",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Frank",
+          "category": "前端"
+        },
+        {
+          "id": "US2.3",
+          "title": "开发目标管理后端服务",
+          "description": "创建目标CRUD操作和业务逻辑的API",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Hunt",
+          "category": "后端"
+        },
+        {
+          "id": "US2.4",
+          "title": "实现目标验证和测试",
+          "description": "添加验证逻辑和全面的测试覆盖",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Travis",
+          "category": "测试"
+        }
+      ]
+    },
+    {
+      "id": "US3",
+      "title": "用户仪表板",
+      "description": "作为用户，我希望在我的仪表板上看到我当前目标和活动的摘要，以便我可以轻松监控我的进度。",
+      "story_points": 21,
+      "total_hours": 84,
+      "priority": "P1",
+      "subtasks": [
+        {
+          "id": "US3.1",
+          "title": "设计仪表板布局和组件",
+          "description": "创建全面的仪表板UI/UX设计",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Lainne",
+          "category": "设计"
+        },
+        {
+          "id": "US3.2",
+          "title": "实现基础仪表板前端",
+          "description": "构建显示用户档案和目标的简单仪表板",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Frank",
+          "category": "前端"
+        },
+        {
+          "id": "US3.3",
+          "title": "开发仪表板数据聚合API",
+          "description": "创建仪表板数据处理的后端服务",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Hunt",
+          "category": "后端"
+        },
+        {
+          "id": "US3.4",
+          "title": "集成实时数据更新",
+          "description": "实现实时仪表板更新的WebSocket连接",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Frank",
+          "category": "集成"
+        },
+        {
+          "id": "US3.5",
+          "title": "测试仪表板功能和性能",
+          "description": "仪表板功能的全面测试和优化",
+          "story_points": 1,
+          "hours": 4,
+          "assignee": "Travis",
+          "category": "测试"
+        }
+      ]
+    },
+    {
+      "id": "US4",
+      "title": "活动记录系统",
+      "description": "作为用户，我希望记录我的日常锻炼和饮食习惯，以便我可以跟踪我的活动如何促进我的健身目标。",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P2",
+      "subtasks": [
+        {
+          "id": "US4.1",
+          "title": "设计活动记录界面",
+          "description": "为运动和饮食记录表单创建UI/UX",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "设计"
+        },
+        {
+          "id": "US4.2",
+          "title": "构建活动记录前端",
+          "description": "实现活动跟踪的表单和输入验证",
+          "story_points": 5,
+          "hours": 20,
+          "assignee": "Frank",
+          "category": "前端"
+        },
+        {
+          "id": "US4.3",
+          "title": "开发活动跟踪后端",
+          "description": "创建用于存储和检索活动数据的API",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Hunt",
+          "category": "后端"
+        },
+        {
+          "id": "US4.4",
+          "title": "实现数据验证和测试",
+          "description": "添加输入验证并测试活动记录功能",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Travis",
+          "category": "测试"
+        }
+      ]
+    },
+    {
+      "id": "US5",
+      "title": "每周进度报告",
+      "description": "作为用户，我希望收到每周进度报告，这样我就能保持动力并对我的健身计划进行调整。",
+      "story_points": 13,
+      "total_hours": 52,
+      "priority": "P2",
+      "subtasks": [
+        {
+          "id": "US5.1",
+          "title": "设计进度报告界面",
+          "description": "创建每周进度报告显示的UI/UX设计",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Lainne",
+          "category": "设计"
+        },
+        {
+          "id": "US5.2",
+          "title": "实现进度计算逻辑",
+          "description": "开发后端服务来计算每周进度指标",
+          "story_points": 4,
+          "hours": 16,
+          "assignee": "Hunt",
+          "category": "后端"
+        },
+        {
+          "id": "US5.3",
+          "title": "构建进度报告前端",
+          "description": "创建React组件来显示每周进度报告",
+          "story_points": 3,
+          "hours": 12,
+          "assignee": "Frank",
+          "category": "前端"
+        },
+        {
+          "id": "US5.4",
+          "title": "实现报告调度系统",
+          "description": "设置自动化每周报告生成和推送",
+          "story_points": 2,
+          "hours": 8,
+          "assignee": "Hunt",
+          "category": "后端"
+        },
+        {
+          "id": "US5.5",
+          "title": "测试进度报告功能",
+          "description": "测试报告生成、准确性和用户体验",
+          "story_points": 1,
+          "hours": 4,
+          "assignee": "Travis",
+          "category": "测试"
+        }
+      ]
+    }
+  ],
+  "priorities": [
+    {
+      "level": "P1",
+      "title": "高优先级（必须有）",
+      "stories": ["US1", "US2", "US3"],
+      "description": "MVP发布必需的核心功能"
+    },
+    {
+      "level": "P2",
+      "title": "中等优先级（应该有）",
+      "stories": ["US4"],
+      "description": "增强用户体验的重要功能"
+    },
+    {
+      "level": "P3",
+      "title": "低优先级（可以有）",
+      "stories": ["US5"],
+      "description": "未来迭代的有用功能"
+    }
+  ],
+  "capacity": {
+    "total_capacity": 315,
+    "committed_points": 60,
+    "committed_hours": 240,
+    "buffer_percentage": 24,
+    "title": "容量 vs 承诺",
+    "total": "总容量",
+    "committed": "已承诺工作",
+    "buffer": "缓冲时间"
+  },
+  "tasks": {
+    "todo": [
+      {
+        "id": "US2.1",
+        "title": "设计目标设置界面",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US3.2",
+        "title": "实现基础仪表板前端",
+        "assignee": "Frank",
+        "story_points": 5,
+        "hours": 20
+      },
+      {
+        "id": "US3.3",
+        "title": "开发基础仪表板API",
+        "assignee": "Hunt",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US2.4",
+        "title": "实现目标验证和测试",
+        "assignee": "Travis",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US4.1",
+        "title": "设计简单活动记录界面",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US4.2",
+        "title": "构建基础活动记录前端",
+        "assignee": "Frank",
+        "story_points": 5,
+        "hours": 20
+      },
+      {
+        "id": "US5.1",
+        "title": "设计进度报告界面",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US5.2",
+        "title": "实现进度计算逻辑",
+        "assignee": "Hunt",
+        "story_points": 4,
+        "hours": 16
+      }
+    ],
+    "in_progress": [
+      {
+        "id": "US1.1",
+        "title": "设计用户档案线框图",
+        "assignee": "Lainne",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US1.2",
+        "title": "实现档案创建前端",
+        "assignee": "Frank",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US1.3",
+        "title": "开发用户档案API",
+        "assignee": "Hunt",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US2.3",
+        "title": "开发目标管理后端",
+        "assignee": "Hunt",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US2.2",
+        "title": "实现目标设置前端组件",
+        "assignee": "Frank",
+        "story_points": 5,
+        "hours": 20
+      },
+      {
+        "id": "US4.3",
+        "title": "开发活动存储后端",
+        "assignee": "Hunt",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US5.3",
+        "title": "构建进度报告前端",
+        "assignee": "Frank",
+        "story_points": 3,
+        "hours": 12
+      }
+    ],
+    "done": [
+      {
+        "id": "SETUP",
+        "title": "项目设置和环境配置",
+        "assignee": "Hunt",
+        "story_points": 1,
+        "hours": 4
+      },
+      {
+        "id": "US3.1",
+        "title": "设计基础仪表板布局",
+        "assignee": "Lainne",
+        "story_points": 3,
+        "hours": 12
+      },
+      {
+        "id": "US1.4",
+        "title": "编写单元和集成测试",
+        "assignee": "Travis",
+        "story_points": 1,
+        "hours": 4
+      },
+      {
+        "id": "US3.4",
+        "title": "集成实时数据更新",
+        "assignee": "Frank",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US3.5",
+        "title": "测试仪表板功能和性能",
+        "assignee": "Travis",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US4.4",
+        "title": "测试活动记录功能",
+        "assignee": "Travis",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US5.4",
+        "title": "实现报告调度系统",
+        "assignee": "Hunt",
+        "story_points": 2,
+        "hours": 8
+      },
+      {
+        "id": "US5.5",
+        "title": "测试进度报告功能",
+        "assignee": "Travis",
+        "story_points": 1,
+        "hours": 4
+      }
+    ]
+  },
+  "user_stories_ui": {
+    "title": "用户故事",
+    "headers": {
+      "id": "ID",
+      "title": "标题",
+      "description": "描述",
+      "story_points": "故事点",
+      "hours": "小时",
+      "priority": "优先级"
+    },
+    "subtask_headers": {
+      "id": "任务ID",
+      "title": "任务标题",
+      "description": "描述",
+      "story_points": "故事点",
+      "hours": "小时",
+      "assignee": "负责人",
+      "category": "类别"
+    },
+    "stories": {
+      "US1": {
+        "title": "用户档案创建",
+        "description": "作为用户，我希望创建包含个人详细信息（年龄、体重、身高、健身目标）的档案，以便我可以跟踪我的进步。"
+      },
+      "US2": {
+        "title": "目标设置模块",
+        "description": "作为用户，我希望设置健身目标（减重、力量训练、有氧运动），以便我可以规划我的健身之旅。"
+      },
+      "US3": {
+        "title": "用户仪表板",
+        "description": "作为用户，我希望在我的仪表板上看到我当前目标和活动的摘要，以便我可以轻松监控我的进度。"
+      },
+      "US4": {
+        "title": "活动记录系统",
+        "description": "作为用户，我希望记录我的日常锻炼和饮食习惯，以便我可以跟踪我的活动如何促进我的健身目标。"
+      },
+      "US5": {
+        "title": "项目设置和基础设施",
+        "description": "作为开发团队，我们需要适当的项目设置和基本基础设施，以便我们能够有效地开发和部署应用程序。"
+      }
+    },
+    "subtasks": {
+      "US1.1": {
+        "title": "设计用户档案线框图和原型",
+        "description": "为用户档案创建流程创建UI/UX设计"
+      },
+      "US1.2": {
+        "title": "实现档案创建前端",
+        "description": "为用户档案表单构建React组件"
+      },
+      "US1.3": {
+        "title": "开发用户档案API端点",
+        "description": "创建用户档案CRUD操作的后端API"
+      },
+      "US1.4": {
+        "title": "编写单元和集成测试",
+        "description": "用户档案创建功能的端到端测试"
+      },
+      "US2.1": {
+        "title": "设计目标设置界面",
+        "description": "为目标设置流程创建线框图和原型"
+      },
+      "US2.2": {
+        "title": "实现目标设置前端组件",
+        "description": "构建用于目标创建和管理的React组件"
+      },
+      "US2.3": {
+        "title": "开发目标管理后端服务",
+        "description": "创建目标CRUD操作和业务逻辑的API"
+      },
+      "US2.4": {
+        "title": "实现目标验证和测试",
+        "description": "添加验证逻辑和全面的测试覆盖"
+      },
+      "US3.1": {
+        "title": "设计仪表板布局和组件",
+        "description": "创建全面的仪表板UI/UX设计"
+      },
+      "US3.2": {
+        "title": "实现仪表板前端框架",
+        "description": "构建带图表和小部件的响应式仪表板"
+      },
+      "US3.3": {
+        "title": "开发仪表板数据聚合API",
+        "description": "创建仪表板数据处理的后端服务"
+      },
+      "US3.4": {
+        "title": "集成实时数据更新",
+        "description": "实现实时仪表板更新的WebSocket连接"
+      },
+      "US3.5": {
+        "title": "测试仪表板功能和性能",
+        "description": "仪表板功能的全面测试和优化"
+      },
+      "US4.1": {
+        "title": "设计活动记录界面",
+        "description": "为运动和饮食记录表单创建UI/UX"
+      },
+      "US4.2": {
+        "title": "构建活动记录前端",
+        "description": "实现活动跟踪的表单和输入验证"
+      },
+      "US4.3": {
+        "title": "开发活动跟踪后端",
+        "description": "创建用于存储和检索活动数据的API"
+      },
+      "US4.4": {
+        "title": "实现数据验证和测试",
+        "description": "添加输入验证并测试活动记录功能"
+      },
+      "US5.1": {
+        "title": "设置开发环境",
+        "description": "配置开发工具、数据库和本地环境"
+      },
+      "US5.2": {
+        "title": "实现基本身份验证系统",
+        "description": "创建用户注册和登录功能"
+      },
+      "US5.3": {
+        "title": "设置CI/CD流水线",
+        "description": "配置自动化测试和部署流水线"
+      },
+      "US5.4": {
+        "title": "创建项目文档",
+        "description": "编写技术文档和设置指南"
+      },
+      "SETUP": {
+        "title": "项目设置和环境配置",
+        "description": "初始项目设置和开发环境配置"
+      }
+    },
+    "board_tasks": {
+      "US1.1": {
+        "title": "设计用户档案线框图"
+      },
+      "US2.1": {
+        "title": "设计目标设置界面"
+      },
+      "US1.3": {
+        "title": "开发用户档案API"
+      },
+      "US3.1": {
+        "title": "设计仪表板布局"
+      },
+      "US2.3": {
+        "title": "开发目标管理后端"
+      },
+      "SETUP": {
+        "title": "项目设置和环境配置"
+      }
+    },
+    "categories": {
+      "Design": "设计",
+      "Frontend": "前端",
+      "Backend": "后端",
+      "Testing": "测试",
+      "Integration": "集成",
+      "Setup": "环境设置",
+      "DevOps": "运维",
+      "Documentation": "文档",
+      "Product Management": "产品管理",
+      "Project Management": "项目管理"
+    }
+  },
+  "priority": {
+    "title": "优先级和容量规划",
+    "levels": "优先级等级",
+    "stories_label": "故事：",
+    "priorities": {
+      "P1": {
+        "title": "高优先级（必须有）",
+        "description": "MVP发布必需的核心功能"
+      },
+      "P2": {
+        "title": "中等优先级（应该有）",
+        "description": "增强用户体验的重要功能"
+      },
+      "P3": {
+        "title": "低优先级（可以有）",
+        "description": "未来迭代的有用功能"
+      }
+    },
+    "capacity": {
+      "title": "容量 vs 承诺",
+      "team_capacity": "团队容量：",
+      "committed_work": "已承诺工作：",
+      "buffer_time": "缓冲时间：",
+      "hours_unit": "小时"
+    }
+  },
+  "backlog": {
+    "title": "Sprint待办事项分配",
+    "headers": {
+      "member": "团队成员",
+      "role": "角色",
+      "tasks": "分配任务",
+      "story_points": "故事点",
+      "hours": "小时"
+    }
+  },
+  "taskboard": {
+    "title": "任务板",
+    "todo": "待办",
+    "in_progress": "进行中",
+    "done": "已完成",
+    "assignee_label": "负责人：",
+    "story_points_suffix": "点",
+    "hours_suffix": "小时"
+  },
+  "deliverables": {
+    "title": "交付物",
+    "functional": "功能交付物",
+    "documentation": "文档交付物",
+    "process": "流程交付物",
+    "items": {
+      "functional": [
+        "用户档案创建系统",
+        "目标设置和管理界面",
+        "交互式用户仪表板",
+        "活动记录功能",
+        "进度跟踪组件"
+      ],
+      "documentation": [
+        "API文档",
+        "用户指南和帮助文档",
+        "技术架构文档",
+        "测试策略和测试用例",
+        "部署指南"
+      ],
+      "process": [
+        "Sprint规划文档",
+        "每日站会记录",
+        "Sprint评审演示",
+        "Sprint回顾报告",
+        "代码审查流程文档"
+      ]
+    }
+  },
+  "presentation": {
+    "title": "演示要点",
+    "points": [
+      {
+        "title": "任务分解策略",
+        "description": "用户故事被系统地分解为设计、开发、测试和部署阶段，以确保全面覆盖和明确的所有权。"
+      },
+      {
+        "title": "故事点估算方法",
+        "description": "我们使用基于复杂性、不确定性和每个任务所需努力的斐波那契序列（1、2、3、5、8、13、21）的计划扑克技术。"
+      },
+      {
+        "title": "优先级判断",
+        "description": "P1故事专注于核心MVP功能，P2增强用户体验，P3提供额外价值 - 基于用户影响和技术依赖性进行优先级排序。"
+      },
+      {
+        "title": "资源分配逻辑",
+        "description": "团队成员根据专业知识分配：Lainne（UI/UX重点），Hunt（后端系统），Frank（全栈集成），Travis（产品协调）。"
+      },
+      {
+        "title": "交付保证",
+        "description": "Sprint容量包括20%的缓冲时间，任务分解为1-2天的增量，依赖关系清晰映射以确保现实的承诺。"
+      }
+    ]
+  },
+  "estimation": {
+    "title": "故事点和工作量估算逻辑",
+    "methods": [
+      {
+        "method": "故事点斐波那契量表",
+        "description": "我们使用斐波那契序列（1、2、3、5、8、13、21），其中每个数字代表相对复杂性。点数考虑代码复杂性、未知因素和集成挑战，而不是纯时间。"
+      },
+      {
+        "method": "计划扑克共识",
+        "description": "团队成员单独估算然后讨论差异以达成共识。这减少了个人偏见，并通过集体智慧提高了准确性。"
+      },
+      {
+        "method": "历史速度数据",
+        "description": "基于以前的sprint表现，我们团队的速度大约是每2周sprint 50-60个故事点，考虑到会议、代码审查和意外问题。"
+      },
+      {
+        "method": "任务粒度原则",
+        "description": "所有任务都分解为1-2天的工作项（4-16小时）。这确保了更好的跟踪，降低了风险，并实现了更准确的估算。"
+      },
+      {
+        "method": "容量缓冲管理",
+        "description": "我们为计划外工作、技术债务和sprint仪式保留总容量的20%，以保持可持续的开发节奏。"
+      }
+    ]
+  },
+  "deliverables": {
+    "title": "交付物",
+    "functional": "功能交付物",
+    "documentation": "文档交付物",
+    "process": "流程交付物",
+    "items": {
+      "functional": [
+        "用户档案创建模块",
+        "目标设置界面",
+        "带进度跟踪的用户仪表板",
+        "活动日志系统",
+        "周进度报告"
+      ],
+      "documentation": [
+        "技术架构文档",
+        "API文档",
+        "用户界面设计规范",
+        "测试策略文档",
+        "部署指南"
+      ],
+      "process": [
+        "Sprint规划文档",
+        "每日站会记录",
+        "Sprint评审演示",
+        "Sprint回顾报告",
+        "风险评估矩阵"
+      ]
+    }
+  },
+  "presentation_points": [
+    "演示用户档案创建和目标设置功能",
+    "展示带有实时进度跟踪和数据可视化的仪表板",
+    "展示带有验证和用户反馈的活动日志界面",
+    "回顾sprint指标：计划68个故事点，完成65个（95.6%速度）",
+    "突出团队协作成就和达到的技术里程碑"
+  ],
+  "estimation_logic": [
+    {
+      "method": "规划扑克",
+      "description": "团队使用斐波那契序列（1,2,3,5,8,13,21）进行相对故事点估算"
+    },
+    {
+      "method": "历史速度",
+      "description": "基于以前的sprint数据，团队速度平均每个sprint 65-70个故事点"
+    },
+    {
+      "method": "容量规划",
+      "description": "315小时团队总容量，保留20%缓冲（63小时）用于计划外工作"
+    },
+    {
+      "method": "任务分解",
+      "description": "每个用户故事分解为子任务，并进行单独的小时估算以确保准确性"
+    }
+  ]
+} 
