@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="project.page_title">FitLife Sprint Planning</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.0/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="lang-toggle" class="lang-btn">EN</button>
+    </div>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header-section">
+            <h1 data-i18n="project.title">FitLife Fitness Management Application</h1>
+            <div class="sprint-info">
+                <div class="info-card">
+                    <h3 data-i18n="sprint.info.title">Sprint Information</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span data-i18n="sprint.info.number">Sprint Number:</span>
+                            <strong data-i18n="sprint.info.number_value">Sprint 1</strong>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="sprint.info.duration">Duration:</span>
+                            <strong data-i18n="sprint.info.duration_value">2 weeks</strong>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="sprint.info.team_size">Team Size:</span>
+                            <strong data-i18n="sprint.info.team_size_value">4 members</strong>
+                        </div>
+                        <div class="info-item">
+                            <span data-i18n="sprint.info.goal">Sprint Goal:</span>
+                            <strong data-i18n="sprint.info.goal_desc">Develop User Dashboard and Goal-Setting Module</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-info">
+                    <h3 data-i18n="team.title">Team Members</h3>
+                    <div id="team-members"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- User Stories Section -->
+        <section class="user-stories-section">
+            <h2 data-i18n="user_stories.title">User Stories</h2>
+            <div id="user-stories-table"></div>
+        </section>
+
+        <!-- Priority & Capacity Planning -->
+        <section class="priority-section">
+            <h2 data-i18n="priority.title">Priority & Capacity Planning</h2>
+            <div class="priority-capacity-grid">
+                <div class="priority-list">
+                    <h3 data-i18n="priority.levels">Priority Levels</h3>
+                    <div id="priority-list"></div>
+                </div>
+                <div class="capacity-planning">
+                    <h3 data-i18n="priority.capacity.title">Capacity vs Commitment</h3>
+                    <div id="capacity-chart"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sprint Backlog Assignment -->
+        <section class="backlog-section">
+            <h2 data-i18n="backlog.title">Sprint Backlog Assignment</h2>
+            <div id="backlog-table"></div>
+        </section>
+
+        <!-- Task Board -->
+        <section class="taskboard-section">
+            <h2 data-i18n="taskboard.title">Task Board</h2>
+            <div class="kanban-board">
+                <div class="kanban-column">
+                    <h3 data-i18n="taskboard.todo">Todo</h3>
+                    <div id="todo-tasks" class="task-list"></div>
+                </div>
+                <div class="kanban-column">
+                    <h3 data-i18n="taskboard.in_progress">In Progress</h3>
+                    <div id="progress-tasks" class="task-list"></div>
+                </div>
+                <div class="kanban-column">
+                    <h3 data-i18n="taskboard.done">Done</h3>
+                    <div id="done-tasks" class="task-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deliverables -->
+        <section class="deliverables-section">
+            <h2 data-i18n="deliverables.title">Deliverables</h2>
+            <div class="deliverables-grid">
+                <div class="deliverable-category">
+                    <h3 data-i18n="deliverables.functional">Functional Deliverables</h3>
+                    <div id="functional-deliverables"></div>
+                </div>
+                <div class="deliverable-category">
+                    <h3 data-i18n="deliverables.documentation">Documentation Deliverables</h3>
+                    <div id="documentation-deliverables"></div>
+                </div>
+                <div class="deliverable-category">
+                    <h3 data-i18n="deliverables.process">Process Deliverables</h3>
+                    <div id="process-deliverables"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Presentation Points -->
+        <section class="presentation-section">
+            <h2 data-i18n="presentation.title">Presentation Key Points</h2>
+            <div id="presentation-points"></div>
+        </section>
+
+        <!-- Estimation Logic -->
+        <section class="estimation-section">
+            <h2 data-i18n="estimation.title">Story Points & Effort Estimation Logic</h2>
+            <div id="estimation-logic"></div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html> 

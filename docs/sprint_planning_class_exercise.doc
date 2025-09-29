@@ -1,0 +1,92 @@
+Sprint Planning Class Exercise
+
+
+Duration: 60 minutes
+
+Objective: Students will practice sprint planning by working in teams to plan a two-week sprint, estimate tasks, and allocate them across a 5-person team.
+
+Scenario/Use Case: A mobile app for managing personal fitness goals.
+
+
+Sprint Planning Exercise: Building a Personal Fitness App
+
+
+Use Case:
+
+You are part of a team developing a mobile app called FitLife, which helps users set, track, and achieve personal fitness goals such as losing weight, increasing stamina, or building muscle.
+
+
+The focus of this sprint is to develop the User Dashboard and Goal-Setting Module, as well as to implement a basic Progress Tracking feature.
+
+
+User Stories for the Sprint:
+
+1. User Story 1: As a user, I want to create a profile with personal details (e.g., age, weight, height, and fitness goals), so that I can track my progress.
+
+
+2. User Story 2: As a user, I want to set fitness goals (e.g., weight loss, strength training, cardio), so that I can plan my fitness journey.
+
+
+3. User Story 3: As a user, I want to see a summary of my current goals and activities on my dashboard, so that I can monitor my progress easily.
+
+
+4. User Story 4: As a user, I want to log my daily exercise and dietary habits, so that I can track how my activities contribute to my fitness goals.
+
+
+5. User Story 5: As a user, I want to receive a weekly progress report, so that I can stay motivated and make adjustments to my routine.
+
+
+Exercise Steps:
+
+
+1. Sprint Planning (20 minutes):
+
+- Provide the teams with the 4 user stories listed above.
+
+- Ask each team to perform the following tasks:
+
+1. Break Down the User Stories into Tasks: Identify all the tasks required to implement each user story.
+
+2. Estimate Effort: Using story points (or hours, if preferred), estimate the effort for each task.
+
+3. Prioritize User Stories: Ask teams to prioritize the user stories based on business value and complexity.
+
+
+3. Capacity Planning (10 minutes):
+
+- Each team should account for the availability of each team member over the 2-week sprint (assuming full-time availability, with some buffer for unplanned issues).
+
+- The team will then assign tasks to each member, ensuring the total capacity aligns with the sprint goals.
+
+
+4. Sprint Backlog Creation (15 minutes):
+
+- Each team should create a sprint backlog that lists the tasks they plan to complete in the sprint.
+
+- Ensure the sprint backlog can realistically be completed in two weeks.
+
+
+5. Sprint Planning Presentation (10 minutes):
+
+- Each team should present their sprint backlog to the class, explaining their:
+
+1. Breakdown of tasks per user story.
+
+2. Effort estimates.
+
+3. Task prioritization.
+
+4. Allocation of work across the team.
+
+
+6. Class Discussion & Feedback (10-15 minutes):
+
+- Facilitate a discussion where students provide feedback on the plans presented.
+
+- Focus on:
+
+1. How well teams estimated and allocated tasks.
+
+2. Whether the backlog aligns with the team’s capacity.
+
+3. How priorities were handled.
